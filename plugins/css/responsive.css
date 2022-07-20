@@ -1,0 +1,216 @@
+﻿/*Small devices (landscape phones, 576px and up)*/
+/*@media only screen and (max-width: 600px) {
+    What this query really means, is “If [device width] is less than or equal to 600px, then do
+}*/
+.d-lg-inline {
+    display: inline !important;
+}
+
+
+
+
+footer .ptext1 a {
+    color: #141414;
+    text-align: left;
+    font-size: 15px;
+}
+
+
+.PRight10 {
+    padding-right: 10px;
+}
+
+ul.Followlist {
+    list-style: none;
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+    ul.Followlist a {
+        color: #6c757d;
+    }
+
+.closesidebar {
+    padding: 15px;
+}
+
+@media (max-width: 576px) {
+    .d-lg-inline {
+        display: none !important;
+    }
+
+    .d-sm-block {
+        display: block !important;
+    }
+    .mt-overlay.d-flex.flex-column.justify-content-center.align-items-center {
+        height: 165px;
+        width: 165px;
+    
+    }
+    .mt-element-overlay .mt-overlay-4 img {
+        height: 165px;
+        width: 165px;
+    }
+    .cardSlider .cardSliderimg {
+    
+        height: 250px;
+    }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {
+    .cardSlider .cardSliderimg {
+     
+        height: 250px;
+    }
+    .d-lg-inline {
+        display: none !important;
+    }
+
+    .d-md-block {
+        display: block !important;
+    }
+
+    .d-md-none {
+        display: none !important;
+    }
+    .col-6.col-sm-6.col-md-6.view-image2 .cardSlider .cardSliderimg {
+        height: 250px;
+    }
+}
+
+
+
+/* mobile navbar sidebar under lg breakpoint */
+@media (max-width: 992px) {
+    .col-6.col-sm-6.col-md-6.view-image2 .cardSlider .cardSliderimg {
+        height: 250px;
+    }
+    .cardSlider .cardSliderimg {
+        width: 100%;
+        height: 250px;
+    }
+    .d-lg-inline {
+        display: none !important;
+    }
+
+    .navbar {
+        /* position: fixed; */
+        /* width: 300px; */
+        /* z-index: 1050; */
+        height: 0;
+    }
+
+    .navbar-collapse.collapsing .navbar-nav {
+        display: block;
+        position: fixed;
+        left: -45%;
+        transition: all 0.2s ease;
+        top: 0;
+    }
+
+    .navbar-collapse.show .navbar-nav {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        flex-direction: column;
+        height: 100%;
+        width: 300px;
+        z-index: 1050;
+        background-color: #ffffff;
+        transition: left 0.35s ease;
+    }
+
+
+    .collapsText {
+        text-align: center !important;
+        padding: 10px;
+        border: 1px solid #858585;
+    }
+
+    .collapsicon i {
+        position: absolute;
+        right: 0;
+        padding-right: 30px;
+    }
+
+    ul.Followlist {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+        padding-top: 10px;
+    }
+
+    .PRight10 {
+        font-size: 15px;
+    }
+
+    .modelsearch .form-group.form-md-line-input {
+        margin: 0 0 10px;
+        padding-top: 0;
+        padding-left: 10px;
+    }
+
+        .modelsearch .form-group.form-md-line-input > .input-icon.right > i {
+            margin: -33px 15px 1px 20px;
+        }
+
+    #mainbanner img {
+        height: 350px;
+    }
+
+    .mainBannerImg {
+        height: 350px;
+    }
+
+    .mainBannerImg {
+        height: 350px;
+    }
+
+    #mainbanner {
+        height: 350px;
+    }
+}
+
+/*LG devices*/
+@media (min-width: 992px) {
+    #footeridaccordion .collapse:not(.show) {
+        display: block;
+    }
+
+    .products-grid-buttons {
+        margin-left: -3px;
+        margin-right: -3px;
+    }
+
+    .d-lg-flex {
+        display: flex !important;
+    }
+
+    .ml-lg-15, .mx-lg-15 {
+        margin-left: 15px !important;
+    }
+
+    .products-grid-buttons {
+        margin-left: -3px;
+        margin-right: -3px;
+    }
+
+    .ml-lg-4, .mx-lg-4 {
+        margin-right: 2px !important;
+    }
+
+    .products-grid-buttons .icon {
+        fill: #e5e5e5;
+    }
+
+    .d-lg-none {
+        display: none !important;
+    }
+
+    .d-lg-block {
+        display: block !important;
+    }
+}
